@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+section, footer {
+    margin: 2em;
+}
+
+hr {
+    color: rgb(250, 250, 250);
+}
+
+#news-box article{
+    border: 1px solid black;
+    margin: 1em;
+    padding: 2em;
+    width: 50%;
+}
+
+article {
+    width: 65%;
+}
+
+article h3 {
+    font-size: 2em;
+}
+
+header {
+    background-color: #3F72AF;
+    font-family: 'Oswald', sans-serif;
+}
+header h1 {
+    margin: 0;
+    padding: 10px 20px;
+    font-size: 3em;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.541);
+}
+
+header h1:hover {
+    color: black;
+}
+
+article h3:hover {
+    color: #3F72AF;
+}
+
+ul {
+    list-style-type: none;
+    background-color: #DBE2EF;
+    margin: 0;
+    padding: 0;
+}
+
+a {          
+    text-decoration: none; 
+    color: black;
+}
+
+footer a {
+    text-decoration: underline;
+    color: blue;
+}
+
+li {
+    display: inline-block;    
+    margin: 0;
+}
+
+li a {
+    display: inline-block;   
+    padding: 10px;
+}
+
+li a:hover {
+    background-color: #112D4E;
+    color: #F9F7F7;
+}
+
+footer {
+    border-top: 1px solid black;
+    margin: 0;
+    padding: 2em;
+}
+
+td p {
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+}
